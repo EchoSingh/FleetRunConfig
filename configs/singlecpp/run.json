@@ -1,0 +1,15 @@
+{
+    "configurations": [
+        {
+            "type": "command",
+            "name": "Build",
+            "program": "c++",
+            "args":["-o","$FILE_NAME_NO_EXT$.exe","$FILE$"]
+        },
+        {
+            "type": "command",
+            "name": "Run",
+            "program": "$FILE_DIR$\\$FILE_NAME_NO_EXT$.exe"
+        }
+    ]
+}
