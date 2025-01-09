@@ -1,4 +1,4 @@
-# Fleet Run Configuration Repository
+# Fleet Run Configuration
 
 This repository contains `.json` run configurations for various project setups like **C++**, **SDL2**, and **SDL2 with SDL2_image**. The configurations specify how to build and run these projects.
 
