@@ -4,6 +4,15 @@ This repository contains `.json` run configurations for various project setups l
 
 ## 📂 File Structure
 
+```bash
+├── configs/
+│   ├── SDL2/run.json        
+│   ├── SDL2_image/run.json   
+│   ├── single/run.json      
+├── LICENSE          
+├── README.md        
+```
+
 - `configs/`: Contains all `.json` configuration files.
 - `docs/`: Documentation for setting up and understanding configurations.
 
