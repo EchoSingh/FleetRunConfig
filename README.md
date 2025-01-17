@@ -1,35 +1,6 @@
 # Fleet Run Configuration
 
-This repository contains `.json` run configurations for various project setups like **C++**, **SDL2**, and **SDL2 with SDL2_image**. The configurations specify how to build and run these projects.
-
-## 📂 File Structure
-
-```bash
-├── configs/
-│   ├── SDL2/run.json        
-│   ├── SDL2_image/run.json   
-│   ├── single/run.json      
-├── LICENSE          
-├── README.md        
-```
-
-- `configs/`: Contains all `.json` configuration files.
-- `docs/`: Documentation for setting up and understanding configurations.
-
-## 📄 Available Configurations
-
-1. **Single C++ Project**
-   - File: `configs/singlecpp/run.json`
-   - Description: Configuration for a basic C++ project using `g++`.
-
-2. **SDL2 Project**
-   - File: `configs/SDL2/run.json`
-   - Description: Configuration for a C++ project using the SDL2 library.
-
-3. **SDL2 + SDL2_image Project**
-   - File: `configs/SDL2 + SDL2_image/run.json`
-   - Description: Configuration for a C++ project using SDL2 and SDL2_image.
-
+This repository contains `.json` run configurations for various project setups . The configurations specify how to build and run these projects.
   
 ## 📄 License
 
