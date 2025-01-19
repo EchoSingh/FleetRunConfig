@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "name": "Run Java Program",
+            "type": "command",
+            "program": "java",
+            "args": ["-cp", ".", "YourJavaClassName"]
+        }
+    ]
+
