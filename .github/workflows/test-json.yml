@@ -4,11 +4,11 @@ on:
   push:
     branches:
       - main
-      - new lang
+      - new-lang
   pull_request:
     branches:
       - main
-      - new lang
+      - new-lang
 
 jobs:
   test-json:
