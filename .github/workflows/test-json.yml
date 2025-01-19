@@ -1,0 +1,24 @@
+name: Test JSON Validity
+
+on:
+  push:
+    branches:
+      - main
+      - new-lang
+  pull_request:
+    branches:
+      - main
+      - new-lang
+
+jobs:
+  test-json:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Validate run.json files
+        run: |
+          # Find all run.json files in the repository and check if they are valid JSON
+          find . -name "run.json" -exec jq empty {} \; || exit 1
